@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0"/>
+    <title>MPreview - 移动端图片预览组件，支持手势缩放，双击放大，缩小</title>
+    <link rel="stylesheet" type="text/css" href="css/normalize.css"/>
+
+    <!-- MPreview.mobeile CSS && JS -->
+    <link rel="stylesheet" type="text/css" href="css/MPreview.mobile.css"/>
+    <script type="text/javascript" src="js/MPreview.mobile.min.js"></script>
+    <script type="text/javascript" src="js/common.js"></script>
+    <!-- MPreview.mobeile CSS && JS -->
+
+    <!-- Demo CSS Start -->
+    <style type="text/css">
+    body { background-color: #F7F7F7; color: #414243; font-size: 16px; line-height: 1.7; font-weight: 400; font-family: 'Open Sans','Helvetica Neue',Arial,'Hiragino Sans GB','Microsoft YaHei', sans-serif; overflow-x: hidden; }
+    a { color: #225d99; text-decoration: none; }
+    .title { margin: 0; font-size: 16px; line-height: 44px; text-align: center; font-weight: normal; box-shadow: 0 1px 6px #ccc; background-color: #F7F7F7; height: 44px; padding: 0px 10px; }
+    .img-list { list-style: none; padding: 0; margin: 0; }
+    .img-list:after { display: table; content: " "; }
+    .img-list > li { box-sizing: border-box; padding: 10px; position: relative; float: left; width: 50%; }
+    .img-list > li img { width: 100%; height: 100%; vertical-align: top; }
+    .img-list > li > a { display: block; }
+    .img-list > li > span { font-size: 14px; padding: 0px 10px; position: absolute; bottom: 15px; right: 20px; border-radius: 3px; background: rgba(37,37,37,0.6); color: #fff; }
+    .img-list > li:first-child { padding-right: 5px; }
+    .img-list > li:last-child { padding-left: 5px; }
+    .img-list > li:first-child span { right: 15px; }
+    .overlay { background: #000; width: 100%; height: 100%; overflow: hidden; position: fixed; top: 0; left: 0; z-index: 99;
+        /*-webkit-transition: all 300ms ease-in 0s;
+                transition: all 300ms ease-in 0s;
+        -webkit-backface-visibility: hidden;
+                backface-visibility: hidden;
+		-webkit-transform: translate3d(100%, 0px, 0px); 
+			transform: translate3d(100%, 0px, 0px);*/
+    }
+    .overlay.in { 
+		-webkit-transform: translate3d(0px, 0px, 0px); 
+				transform: translate3d(0px, 0px, 0px);
+	}
+    </style>
+    <!-- Demo CSS End -->
+</head>
+<body style="background-color: #000000">
+    <div class="overlay" id="overlay"></div>
+</body>
+
+<script type="text/javascript">
+    window.onload = function(){
+        // Demo JS
+        var url = "http://192.168.0.202:8080/File/filebed/"+getParam("name");
+        loadPicsPage(url)
+    };
+    function loadPicsPage(data){
+        var direction = 'left',
+                elem = document.querySelectorAll('ul > li'),
+                wrap = document.querySelector('#overlay');
+        var title = "nihao";
+        var showView = document.getElementById('overlay');
+        setTimeout(function() {
+            MPreview({
+                data:[data],
+                title: title,
+                direction: direction,
+                wrap: '#overlay',
+                init: function() {
+                    window.console && console.log('MPreview.mobile init');
+                },
+                close: function() {
+                    wrap.className = wrap.className.replace(' in', '');
+                }
+            });
+        },10);
+        wrap.className = wrap.className + ' in';
+    }
+</script>
+</html>

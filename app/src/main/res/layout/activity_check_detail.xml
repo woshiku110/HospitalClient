@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.woshiku.hospitalclient.activity.checkdetail.CheckDetailActivity"
+    android:background="@color/titleBg">
+    <LinearLayout
+        android:id="@id/check_detail_state_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <include layout="@layout/item_title_bar"/>
+    </LinearLayout>
+    <ScrollView
+        android:id="@id/check_detail_state_scrollview"
+        android:layout_below="@id/check_detail_state_top"
+        android:layout_above="@id/check_detail_state_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fbfbfb">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="1dp"
+            android:orientation="vertical">
+            <LinearLayout
+                android:id="@id/check_detail_state_page"
+                android:layout_width="match_parent"
+                android:layout_height="178dp"
+                android:orientation="horizontal">
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@id/check_detail_state_page_bottom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:orientation="vertical">
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout
+        android:id="@id/check_detail_state_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:background="@color/titleBg"
+        android:gravity="center">
+        <TextView
+            android:id="@id/check_detail_state_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="去支付"
+            android:textColor="@android:color/white"/>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="StarRateView">
+        <attr name="starSize" format="dimension"/>
+        <attr name="marginSize" format="dimension"/>
+        <attr name="starNum" format="integer"/>
+        <attr name="markNum" format="integer"/>
+        <attr name="isEdit" format="boolean"/>
+        <attr name="unChoosedPic" format="reference"/>
+        <attr name="choosedPic" format="reference"/>
+        <attr name="step" format="float"/>
+    </declare-styleable>
+</resources>

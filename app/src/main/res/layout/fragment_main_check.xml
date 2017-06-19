@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/item_name_bar"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <com.woshiku.progresslibrary.RoundCornerProgressBar
+            android:id="@id/web_panel_pb"
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            app:rcBackgroundColor="@color/custom_progress_background"
+            app:rcBackgroundPadding="0dp"
+            app:rcMax="100"
+            app:rcProgress="50"
+            app:rcProgressColor="@color/custom_progress_orange_progress"
+            app:rcRadius="0dp" />
+        <WebView
+            android:id="@id/web_panel_webview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </WebView>
+    </LinearLayout>
+</LinearLayout>

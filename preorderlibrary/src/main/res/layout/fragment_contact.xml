@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include
+        android:id="@+id/title_bar"
+        layout="@layout/layout_title_bar"/>
+
+<FrameLayout
+    android:layout_below="@+id/title_bar"
+    android:id="@+id/fm_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/load_wait_layout"/>
+    <include layout="@layout/load_fail_layout"/>
+    <include layout="@layout/contact_layout"/>
+</FrameLayout >
+
+</RelativeLayout>

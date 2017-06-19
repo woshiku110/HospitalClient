@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:background="#e2e2e2">
+    <LinearLayout
+        android:id="@id/item_dialog_line"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:layout_marginTop="1px"
+        android:layout_marginBottom="1px">
+        <TextView
+            android:id="@id/item_dialog_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="没有读取"
+            android:textColor="#666666"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="20px" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,23 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="titleSize">19sp</dimen>
+    <dimen name="middle_word_size">18sp</dimen>
+    <dimen name="small_word_size">14sp</dimen>
+    <dimen name="logo_desc_text_size">24sp</dimen>
+    <dimen name="item_my_top">10dp</dimen>
+    <dimen name="item_my_leftIcon_left">16dp</dimen>
+    <dimen name="item_my_leftIcon_right">12dp</dimen>
+    <dimen name="item_my_rightIcon_right">12dp</dimen>
+    <dimen name="item_my_height">55dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="item_height">70dp</dimen>
+    <dimen name="gap">10dp</dimen>
+    <dimen name="qos_ans_top">5dp</dimen>
+    <dimen name="qos_ans_title">21dp</dimen>
+    <dimen name="qos_ans_content">37dp</dimen>
+    <dimen name="pre_order_detail_gap">23dp</dimen>
+    <dimen name="pre_order_detail_pic">60dp</dimen>
+    <dimen name="new_family_width">60dp</dimen>
+</resources>

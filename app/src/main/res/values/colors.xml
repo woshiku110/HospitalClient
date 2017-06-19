@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="titleBg">#3d96e2</color>
+    <color name="whiteBg">#ffffff</color>
+    <color name="titleWordColor">#ffffff</color>
+    <color name="textUnselected">#6a6a6a</color>
+    <color name="textSelected">#3d96e2</color>
+    <color name="home_line_color">#c2c2c2</color>
+    <color name="home_bottom_bg">#f0f0f0</color>
+    <color name="home_gap_color">#dbdbdb</color>
+    <color name="home_item_color">#fbfbfb</color>
+    <color name="home_item_text_color">#666666</color>
+    <color name="login_bg">#e9f0f6</color>
+    <color name="white">#ffffff</color>
+    <color name="titleBlue">#3d96e2</color>
+    <color name="title_my_bg">#2f85ce</color>
+    <color name="descBg">#1a000000</color>
+    <color name="bt_shape_bg_pressed">#DCDCDC</color>
+    <color name="tt_gray_bg">#99cccccc</color>
+</resources>

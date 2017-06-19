@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--主界面-->
+    <item name="home_relate" type="id"/>
+    <item name="home_check_project" type="id"/>
+    <!--fragment_home的界面-->
+    <item name="fragment_home_healthy_line" type="id"/>
+    <item name="fragment_home_export_doctor" type="id"/>
+    <item name="fragment_home_export_repeat" type="id"/>
+    <item name="fragment_home_medical" type="id"/>
+    <item name="fragment_home_healthy" type="id"/>
+    <!--my界面-->
+    <item name="fragment_my_family" type="id"/>
+    <item name="fragment_my_prescrible" type="id"/>
+    <item name="fragment_my_history" type="id"/>
+    <item name="fragment_my_help" type="id"/>
+    <item name="fragment_my_set" type="id"/>
+    <!--fragment的我的页面ID-->
+    <item name="home_fragment_my_preorder_line" type="id"/>
+    <!--我的家庭的Id-->
+    <item name="familiy_input_dateofbirth" type="id"/>
+    <item name="family_input_liveCity" type="id"/>
+    <item name="family_input_bloodType" type="id"/>
+    <item name="family_input_sex" type="id"/>
+    <item name="family_input_user_icon" type="id"/>
+    <item name="family_input_name" type="id"/>
+    <item name="family_input_phone" type="id"/>
+    <item name="family_input_gmy" type="id"/>
+    <item name="family_input_ywjj" type="id"/>
+    <item name="family_input_jwbs" type="id"/>
+    <item name="family_icon_text" type="id"/>
+    <item name="hold_diagnosis_listview" type="id"/>
+    <!--我的webPanel的Id-->
+    <item name="web_panel_pb" type="id"/>
+    <item name="web_panel_webview" type="id"/>
+    <!--我的页面的ID-->
+    <item name="my_image_head" type="id"/>
+    <item name="my_name_text" type="id"/>
+    <item name="my_scroll_line" type="id"/>
+    <item name="my_wallet_line" type="id"/>
+    <item name="my_news_line" type="id"/>
+    <item name="item_my_line_all" type="id"/>
+    <item name="item_my_relate" type="id"/>
+    <item name="item_my_icon_left" type="id"/>
+    <item name="item_my_txt" type="id"/>
+    <item name="item_my_icon_right" type="id"/>
+    <item name="item_top_line" type="id"/>
+    <item name="item_bottom_line" type="id"/>
+    <!--listview加载列表-->
+    <item name="load_listview_line" type="id"/>
+    <item name="load_listview" type="id"/>
+    <item name="load_nodata" type="id"/>
+    <item name="load_fail" type="id"/>
+    <item name="load_wait" type="id"/>
+    <!--候诊列表ID-->
+    <item name="item_hold_diagnsis_icon" type="id"/>
+    <item name="item_hold_diagnsis_name" type="id"/>
+    <item name="item_hold_diagnsis_age" type="id"/>
+    <item name="item_hold_diagnsis_doctor" type="id"/>
+    <item name="item_hold_diagnsis_time" type="id"/>
+    <item name="item_hold_diagnsis_sex" type="id"/>
+    <item name="item_hold_diagnsis_sex_bg" type="id"/>
+    <item name="item_holde_diag_check_desc_one" type="id"/>
+    <item name="item_holde_diag_check_desc_two" type="id"/>
+    <!--候诊详情ID-->
+    <item name="hold_diagnsis_detail_scrollview" type="id"/>
+    <item name="hold_diagnsis_detail_name" type="id"/>
+    <item name="hold_diagnsis_detail_sex" type="id"/>
+    <item name="hold_diagnsis_detail_symbol" type="id"/>
+    <item name="hold_diagnsis_detail_hospital" type="id"/>
+    <item name="hold_diagnsis_detail_time" type="id"/>
+    <item name="hold_diagnsis_detail_doctor" type="id"/>
+    <item name="hold_diagnsis_detail_rece_address" type="id"/>
+    <item name="hold_diagnsis_detail_hold_address" type="id"/>
+    <item name="hold_diagnsis_detail_hospital_address" type="id"/>
+    <item name="hold_diagnsis_detail_symbol_text" type="id"/>
+    <item name="hold_diagnsis_detail_symbol_exit" type="id"/>
+    <item name="hold_diagnsis_detail_symbol_confirm" type="id"/>
+    <!--我的家庭-->
+    <item name="item_myfamily_icon" type="id"/>
+    <item name="item_myfamily_name" type="id"/>
+    <item name="item_myfamily_age" type="id"/>
+    <item name="item_myfamily_sex" type="id"/>
+    <item name="item_myfamily_gms" type="id"/>
+    <item name="item_myfamly_sex_bg" type="id"/>
+    <!--预约预诊及详情页面-->
+    <item name="preorder_detail_top" type="id"/>
+    <item name="preorder_detail_bottom" type="id"/>
+    <item name="preorder_detail_name" type="id"/>
+    <item name="preorder_detail_sex" type="id"/>
+    <item name="preorder_detail_symbol" type="id"/>
+    <item name="preorder_detail_symbol_desc" type="id"/>
+    <item name="preorder_detail_desc" type="id"/>
+    <item name="preorder_detail_images_scroll" type="id"/>
+    <item name="preorder_detail_images_scroll_line" type="id"/>
+    <item name="preorder_detail_symbol_qans_line" type="id"/>
+    <item name="preorder_detail_scroll" type="id"/>
+    <item name="preorder_detail_pics_line" type="id"/>
+    <!--检查单详情界面-->
+    <item name="check_detail_state_top" type="id"/>
+    <item name="check_detail_state_middle" type="id"/>
+    <item name="check_detail_state_bottom" type="id"/>
+    <item name="check_detail_state_txt" type="id"/>
+    <item name="check_detail_state_page" type="id"/>
+    <item name="check_detail_state_page_bottom" type="id"/>
+    <item name="check_detail_state_scrollview" type="id"/>
+    <!--地址管理-->
+    <item name="address_manage_name" type="id"/>
+    <item name="address_manage_phone" type="id"/>
+    <item name="address_manage_address" type="id"/>
+    <item name="address_manage_edit" type="id"/>
+    <item name="address_manage_dele" type="id"/>
+    <item name="address_manage_cb" type="id"/>
+    <!--新增地址活动-->
+    <item name="address_name" type="id"/>
+    <item name="address_phone" type="id"/>
+    <item name="address_area_relate" type="id"/>
+    <item name="address_area" type="id"/>
+    <item name="address_detail_address" type="id"/>
+    <item name="address_default_choose" type="id"/>
+    <item name="address_save_data" type="id"/>
+    <!--注册活动-->
+    <item name="register_phone" type="id"/>
+    <item name="register_name" type="id"/>
+    <item name="register_pass" type="id"/>
+    <item name="register_pass_correct" type="id"/>
+    <item name="register_next_step" type="id"/>
+    <!--评价-->
+    <item name="comment_top" type="id"/>
+    <item name="comment_bottom" type="id"/>
+    <item name="comment_line" type="id"/>
+    <item name="comment_image" type="id"/>
+    <item name="comment_more" type="id"/>
+    <item name="comment_name" type="id"/>
+    <item name="comment_career" type="id"/>
+    <item name="comment_direct" type="id"/>
+    <item name="comment_hospital" type="id"/>
+    <item name="comment_submit" type="id"/>
+    <item name="comment_get_star" type="id"/>
+    <item name="comment_set_star" type="id"/>
+    <item name="comment_show_point" type="id"/>
+    <item name="comment_set_point" type="id"/>
+</resources>

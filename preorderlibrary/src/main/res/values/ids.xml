@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="activity_pre_order_line" type="id"/>
+
+    <item name="body_part_improve_content" type="id"/>
+    <item name="body_part_title" type="id"/>
+    <item name="body_part_content" type="id"/>
+    <item name="body_part_title_txt" type="id"/>
+    <item name="body_part_title_line" type="id"/>
+    <item name="body_part_title_mark" type="id"/>
+    <item name="body_part_content_text" type="id"/>
+    <item name="body_part_content_mark" type="id"/>
+    <item name="body_part_content_relate" type="id"/>
+
+</resources>

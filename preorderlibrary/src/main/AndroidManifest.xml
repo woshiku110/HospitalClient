@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.preorderlibrary">
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.CAMERA">
+        <uses-feature android:name="android.hardware.camera" />
+        <uses-feature
+            android:name="android.hardware.camera.front"
+            android:required="false" />
+        <uses-feature android:name="android.hardware.camera.autofocus" />
+    </uses-permission>
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".PreOrderActivity"
+            android:theme="@style/PreorderTheme"
+            android:screenOrientation="portrait"
+            android:configChanges="orientation|keyboardHidden"
+            android:windowSoftInputMode="adjustPan|stateHidden"></activity>
+        <activity android:name="com.woshiku.albumlibrary.activity.AlbumActivity"></activity>
+        <activity android:name=".utils.ImageActivity"/>
+    </application>
+
+</manifest>

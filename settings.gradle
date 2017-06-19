@@ -1,0 +1,2 @@
+include ':mydatepicker', ':HttpAsnyLibrary', ':library', ':wheelwidgetslib', ':citylibrary', ':mywheelwidgetslib', ':cropLib', ':progresslibrary', ':dialoglib', ':picshowlib', ':commonusejarslib', ':startlib'
+include 'app', ':banner', ':tabbarlib', ':albumlib', ':photoview-release-1.2.4', ':imageeditlibrary', ':inputlib', ':urllibrary', ':gifLibrary', ':waitlibrary', ':preorderlibrary', ':DatePicker'

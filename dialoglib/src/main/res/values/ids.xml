@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--多选对话框列表-->
+    <item name="items_dialog_layout_line" type="id"/>
+    <item name="item_dialog_line" type="id"/>
+    <item name="item_dialog_txt" type="id"/>
+    <item name="item_parent_line" type="id"/>
+    <item name="item_title" type="id"/>
+    <item name="item_content" type="id"/>
+    <item name="item_ok" type="id"/>
+    <item name="item_cancel" type="id"/>
+</resources>

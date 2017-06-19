@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/titleBlue">
+    <LinearLayout
+        android:id="@id/preorder_detail_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <include layout="@layout/item_title_bar"/>
+    </LinearLayout>
+    <ScrollView
+        android:id="@id/preorder_detail_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/preorder_detail_top"
+        android:layout_above="@id/preorder_detail_bottom"
+        android:background="#fbfbfb">
+        <include layout="@layout/activity_preorder_detail_content"/>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@id/preorder_detail_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/titleBg"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/style_title"
+            android:textSize="16sp"
+            android:text="退 号" />
+    </LinearLayout>
+</RelativeLayout>

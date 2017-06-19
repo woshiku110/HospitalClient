@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">PreOrderLibrary</string>
+    <string name="diseasedescriptionhint">请尽量详细描述主要症状、发病时间、诊断时间、
+    过往病史，以得到医生更为精准的分析诊断，医患信息将得到保护不被公布，请放心使用。
+    </string>
+    <string name="disaeseMidHint">
+        上传就诊病例/检查报告/病症图片
+    </string>
+    <string name="checkbox">图片仅医生可见</string>
+</resources>

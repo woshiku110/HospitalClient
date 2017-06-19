@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.woshiku.hospitalclient">
+
+    <!-- if you want to load images from the internet -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- if you want to load images from a file OR from the internet -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-feature
+        android:name="android.hardware.camera.front"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.front"
+        android:required="false" />
+    <application
+        android:name=".common.CustomApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/icon_jks_one"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activity.splash.SplashActivity"
+                  android:configChanges="orientation|keyboardHidden|screenSize"
+                  android:screenOrientation="portrait"
+                  android:theme="@style/TranslucentTheme"
+                  android:windowSoftInputMode="adjustPan|stateHidden">
+                  <intent-filter>
+                      <action android:name="android.intent.action.MAIN" />
+
+                      <category android:name="android.intent.category.LAUNCHER" />
+                  </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.LoginActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/TranslucentTheme"
+            android:windowSoftInputMode="adjustPan|stateHidden">
+            <intent-filter>
+                <action android:name="com.woshiku.LoginActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.SeondActivity"
+            android:theme="@style/TranslucentTheme" />
+        <activity
+            android:name=".activity.NewFamilyActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:theme="@style/TranslucentTheme"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden">
+            <intent-filter>
+                <action android:name="com.myfamily.NewFamilyActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.MainActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/TranslucentTheme"
+            android:windowSoftInputMode="adjustPan|stateHidden" >
+            <intent-filter>
+                <action android:name="com.woshiku.MainActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.xinlan.imageeditlibrary.editimage.CropImageActivity"></activity>
+        <activity android:name="com.soundcloud.android.crop.CropImageActivity" />
+        <activity
+            android:name=".activity.HoldDiagnsisActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/TranslucentTheme"
+            android:windowSoftInputMode="adjustPan|stateHidden">
+            <intent-filter>
+                <action android:name="com.hold.HoldDiagnsisActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.HoldDiagDetailActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/TranslucentTheme"
+            android:windowSoftInputMode="adjustPan|stateHidden"></activity>
+        <activity
+            android:name=".activity.MyFamilyActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/TranslucentTheme"
+            android:windowSoftInputMode="adjustPan|stateHidden">
+            <intent-filter>
+                <action android:name="com.myfamily.MyFamilyActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.PreorderActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/TranslucentTheme"
+            android:windowSoftInputMode="adjustPan|stateHidden">
+            <intent-filter>
+                <action android:name="com.myfamily.PreorderActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.PreorderDetailActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/TranslucentTheme"
+            android:windowSoftInputMode="adjustPan|stateHidden">
+            <intent-filter>
+                <action android:name="com.myfamily.PreorderDetailActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.web.QuestionActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/TranslucentTheme"
+            android:windowSoftInputMode="adjustPan|stateHidden">
+            <intent-filter>
+                <action android:name="com.web.QuestionActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.web.HealthyInfoActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/TranslucentTheme"
+            android:windowSoftInputMode="adjustPan|stateHidden">
+            <intent-filter>
+                <action android:name="com.web.HealthyInfoActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.check.CheckActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/TranslucentTheme"
+            android:windowSoftInputMode="adjustPan|stateHidden">
+            <intent-filter>
+                <action android:name="com.check.CheckActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.checkdetail.CheckDetailActivity"
+                  android:configChanges="orientation|keyboardHidden|screenSize"
+                  android:screenOrientation="portrait"
+                  android:theme="@style/TranslucentTheme"
+                  android:windowSoftInputMode="adjustPan|stateHidden">
+                  <intent-filter>
+                    <action android:name="com.checkdetail.CheckDetailActivity" />
+                    <category android:name="android.intent.category.DEFAULT" />
+                 </intent-filter>
+        </activity>
+        <activity android:name=".activity.prescription.PrescriptionActivity"
+                  android:configChanges="orientation|keyboardHidden|screenSize"
+                  android:screenOrientation="portrait"
+                  android:theme="@style/TranslucentTheme"
+                  android:windowSoftInputMode="adjustPan|stateHidden">
+                  <intent-filter>
+                      <action android:name="com.prescription.PrescriptionActivity" />
+                      <category android:name="android.intent.category.DEFAULT" />
+                  </intent-filter>
+        </activity>
+        <activity android:name=".activity.prescriptiondetail.PrescribleDetailActivity"
+                  android:configChanges="orientation|keyboardHidden|screenSize"
+                  android:screenOrientation="portrait"
+                  android:theme="@style/TranslucentTheme"
+                  android:windowSoftInputMode="adjustPan|stateHidden">
+                  <intent-filter>
+                      <action android:name="com.prescriptiondetail.PrescribleDetailActivity" />
+                      <category android:name="android.intent.category.DEFAULT" />
+                  </intent-filter>
+        </activity>
+        <activity android:name=".activity.addressmanage.AddressManageActivity"
+                  android:configChanges="orientation|keyboardHidden|screenSize"
+                  android:screenOrientation="portrait"
+                  android:theme="@style/TranslucentTheme"
+                  android:windowSoftInputMode="adjustPan|stateHidden">
+                  <intent-filter>
+                      <action android:name="com.addressmanage.AddressManageActivity" />
+                      <category android:name="android.intent.category.DEFAULT" />
+                  </intent-filter>
+        </activity>
+        <activity android:name=".activity.address.AddressActivity"
+                  android:configChanges="orientation|keyboardHidden|screenSize"
+                  android:screenOrientation="portrait"
+                  android:theme="@style/TranslucentTheme"
+                  android:windowSoftInputMode="adjustPan|stateHidden">
+                  <intent-filter>
+                      <action android:name="com.address.AddressActivity" />
+                      <category android:name="android.intent.category.DEFAULT" />
+                  </intent-filter>
+        </activity>
+        <activity android:name=".activity.web.WalletActivity"
+                  android:configChanges="orientation|keyboardHidden|screenSize"
+                  android:screenOrientation="portrait"
+                  android:theme="@style/TranslucentTheme"
+                  android:windowSoftInputMode="adjustPan|stateHidden">
+                  <intent-filter>
+                      <action android:name="com.web.WalletActivity" />
+                      <category android:name="android.intent.category.DEFAULT" />
+                 </intent-filter>
+        </activity>
+        <activity android:name=".activity.web.ExportDoctorActivity"
+                  android:configChanges="orientation|keyboardHidden|screenSize"
+                  android:screenOrientation="portrait"
+                  android:theme="@style/TranslucentTheme"
+                  android:windowSoftInputMode="adjustPan|stateHidden">
+                  <intent-filter>
+                      <action android:name="com.web.ExportDoctorActivity" />
+                      <category android:name="android.intent.category.DEFAULT" />
+                  </intent-filter>
+        </activity>
+        <activity android:name=".activity.register.RegisterActivity"
+                  android:configChanges="orientation|keyboardHidden|screenSize"
+                  android:screenOrientation="portrait"
+                  android:theme="@style/TranslucentTheme"
+                  android:windowSoftInputMode="adjustPan|stateHidden">
+                  <intent-filter>
+                      <action android:name="com.woshiku.RegisterActivity" />
+                      <category android:name="android.intent.category.DEFAULT" />
+                  </intent-filter>
+        </activity>
+        <activity android:name=".activity.web.ArticleAtcivity"
+                  android:configChanges="orientation|keyboardHidden|screenSize"
+                  android:screenOrientation="portrait"
+                  android:theme="@style/TranslucentTheme"
+                  android:windowSoftInputMode="adjustPan|stateHidden">
+                  <intent-filter>
+                      <action android:name="com.woshiku.ArticleAtcivity" />
+                      <category android:name="android.intent.category.DEFAULT" />
+                  </intent-filter>
+        </activity>
+        <activity android:name=".activity.web.HelpActivity"
+                  android:configChanges="orientation|keyboardHidden|screenSize"
+                  android:screenOrientation="portrait"
+                  android:theme="@style/TranslucentTheme"
+                  android:windowSoftInputMode="adjustPan|stateHidden">
+                  <intent-filter>
+                      <action android:name="com.web.HelpActivity" />
+                      <category android:name="android.intent.category.DEFAULT" />
+                  </intent-filter>
+        </activity>
+        <activity android:name=".activity.web.HistoryActivity"
+                  android:configChanges="orientation|keyboardHidden|screenSize"
+                  android:screenOrientation="portrait"
+                  android:theme="@style/TranslucentTheme"
+                  android:windowSoftInputMode="adjustPan|stateHidden">
+                  <intent-filter>
+                      <action android:name="com.web.HistoryActivity" />
+                      <category android:name="android.intent.category.DEFAULT" />
+                  </intent-filter>
+        </activity>
+        <activity android:name=".activity.comment.CommentActivity"
+                  android:configChanges="orientation|keyboardHidden|screenSize"
+                  android:screenOrientation="portrait"
+                  android:theme="@style/myTransparent"
+                  android:windowSoftInputMode="adjustPan|stateHidden">
+                  <intent-filter>
+                      <action android:name="com.comment.CommentActivity" />
+                      <category android:name="android.intent.category.DEFAULT" />
+                  </intent-filter>
+        </activity>
+        <activity android:name=".activity.newsremind.NewsRemindActivity"
+                  android:configChanges="orientation|keyboardHidden|screenSize"
+                  android:screenOrientation="portrait"
+                  android:theme="@style/TranslucentTheme"
+                  android:windowSoftInputMode="adjustPan|stateHidden">
+                  <intent-filter>
+                      <action android:name="com.notify.NewsRemindActivity" />
+                      <category android:name="android.intent.category.DEFAULT" />
+                  </intent-filter>
+        </activity>
+        <activity android:name=".activity.userinfo.UserInfoActivity"
+                  android:configChanges="orientation|keyboardHidden|screenSize"
+                  android:screenOrientation="portrait"
+                  android:theme="@style/TranslucentTheme"
+                  android:windowSoftInputMode="adjustPan|stateHidden">
+
+        </activity>
+        <service android:name=".service.NotifyService">
+            <intent-filter>
+                <action android:name="com.service.NotifyService"/>
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>

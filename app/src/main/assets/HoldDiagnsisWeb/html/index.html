@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+    <title></title>
+    <link href="../css/index.css" type="text/css" rel="stylesheet" />
+    <script src="../js/jquery-3.1.0.min.js" type="text/javascript"></script>
+    <script src="../js/global.js"></script>
+    <script src="../js/index.js" type="text/javascript"></script>
+    <script src="../js/parseIndex.js" type="text/javascript"></script>
+    <script src="../js/common.js"></script>
+    <style>
+        body{
+            padding:0px;
+            margin:0px;
+            font-family:Helvetica;
+            background-color: #fbfbfb;
+        }
+        div{
+            line-height: 0px;
+        }
+        h1{
+            font-size:18px;
+            /*face:"sans-serif";*/
+        }
+        h2{
+            font-size:14px;
+            /*face:"sans-serif";*/
+            color: #6c6c6c;
+        }
+        h3{
+            font-size:10px;
+            /*face:"sans-serif";*/
+            color: #6c6c6c;
+        }
+    </style>
+</head>
+<body>
+    <div class="list_div" id="list_div_id">
+
+
+    </div>
+</body>
+<script>
+    window.onload = function(){
+        _token = getParam("token");
+        getHoldDiagsisList();
+    }
+</script>
+</html>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    android:id="@+id/title_bar"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:background="#3d96e2"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+        <LinearLayout
+            android:id="@+id/icon_return_bt"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:paddingRight="15dp">
+            <ImageView
+                android:layout_gravity="center_vertical"
+                android:id="@+id/title_back_img"
+                android:layout_width="16dp"
+                android:layout_height="18dp"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/ico_return"
+                android:background="@android:color/transparent"
+                />
+        </LinearLayout>
+
+        <TextView
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:id="@+id/txt_title"
+            style="@style/style_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="标题"
+            android:textSize="19sp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:orientation="vertical"
+        >
+        <Button
+            android:id="@+id/concrete_bt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="确定"
+            android:textSize="15sp"
+            android:textColor="#ffffff"
+            android:layout_gravity="right"
+            android:gravity="center"
+            android:background="@drawable/transparent"
+            android:visibility="invisible"
+            />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/item_rece_line_layout"
+    android:layout_width="match_parent"
+    android:layout_height="80dp">
+    <View
+        android:id="@+id/item_rece_left_view"
+        android:layout_width="15dp"
+        android:layout_height="19dp"
+        android:layout_centerVertical="true"
+        android:background="@mipmap/ico_address"
+        android:layout_marginLeft="22dp"
+        android:layout_marginRight="16dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_toLeftOf="@+id/item_rece_right_view"
+        android:layout_toRightOf="@+id/item_rece_left_view">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/item_rece_people"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="收货人 : 王小波"
+                android:textColor="#666666"
+                android:textSize="15sp"
+                />
+            <TextView
+                android:id="@+id/item_rece_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="13752573992"
+                android:textColor="#666666"
+                android:textSize="15sp"
+                android:layout_alignParentRight="true"
+                />
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+            <TextView
+                android:id="@+id/item_rece_address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="收货地址 : 王小波"
+                android:textColor="#666666"
+                android:textSize="11sp"
+                />
+        </LinearLayout>
+    </LinearLayout>
+    <View
+        android:id="@+id/item_rece_right_view"
+        android:layout_width="6dp"
+        android:layout_height="15dp"
+        android:layout_centerVertical="true"
+        android:background="@mipmap/ico_more"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="20dp"
+        />
+</RelativeLayout>

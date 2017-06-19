@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+    <ImageView
+        android:id="@+id/concrete_image"
+        android:background="@mipmap/ic_launcher"
+        android:layout_width="110dp"
+        android:layout_height="110dp" />
+    <TextView
+        android:layout_below="@+id/concrete_image"
+        android:gravity="center"
+        android:id="@+id/concrete_text"
+        android:layout_marginTop="8dp"
+        android:text="默认"
+        android:textSize="15sp"
+        android:layout_width="110dp"
+        android:layout_height="28dp" />
+    <ImageView
+        android:id="@+id/concrete_checkbox"
+        android:layout_alignRight="@id/concrete_image"
+        android:layout_alignBottom="@id/concrete_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_yes_s"
+        />
+</RelativeLayout>

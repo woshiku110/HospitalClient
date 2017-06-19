@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/DatePicker/DatePicker.iml" filepath="$PROJECT_DIR$/DatePicker/DatePicker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HospitalClient.iml" filepath="$PROJECT_DIR$/HospitalClient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HttpAsnyLibrary/HttpAsnyLibrary.iml" filepath="$PROJECT_DIR$/HttpAsnyLibrary/HttpAsnyLibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/albumlib/albumlib.iml" filepath="$PROJECT_DIR$/albumlib/albumlib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/banner/banner.iml" filepath="$PROJECT_DIR$/banner/banner.iml" />
+      <module fileurl="file://$PROJECT_DIR$/citylibrary/citylibrary.iml" filepath="$PROJECT_DIR$/citylibrary/citylibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/commonusejarslib/commonusejarslib.iml" filepath="$PROJECT_DIR$/commonusejarslib/commonusejarslib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cropLib/cropLib.iml" filepath="$PROJECT_DIR$/cropLib/cropLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dialoglib/dialoglib.iml" filepath="$PROJECT_DIR$/dialoglib/dialoglib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gifLibrary/gifLibrary.iml" filepath="$PROJECT_DIR$/gifLibrary/gifLibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/imageeditlibrary/imageeditlibrary.iml" filepath="$PROJECT_DIR$/imageeditlibrary/imageeditlibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/inputlib/inputlib.iml" filepath="$PROJECT_DIR$/inputlib/inputlib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mydatepicker/mydatepicker.iml" filepath="$PROJECT_DIR$/mydatepicker/mydatepicker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mywheelwidgetslib/mywheelwidgetslib.iml" filepath="$PROJECT_DIR$/mywheelwidgetslib/mywheelwidgetslib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/photoview-release-1.2.4/photoview-release-1.2.4.iml" filepath="$PROJECT_DIR$/photoview-release-1.2.4/photoview-release-1.2.4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/picshowlib/picshowlib.iml" filepath="$PROJECT_DIR$/picshowlib/picshowlib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/preorderlibrary/preorderlibrary.iml" filepath="$PROJECT_DIR$/preorderlibrary/preorderlibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/progresslibrary/progresslibrary.iml" filepath="$PROJECT_DIR$/progresslibrary/progresslibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/startlib/startlib.iml" filepath="$PROJECT_DIR$/startlib/startlib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tabbarlib/tabbarlib.iml" filepath="$PROJECT_DIR$/tabbarlib/tabbarlib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/urllibrary/urllibrary.iml" filepath="$PROJECT_DIR$/urllibrary/urllibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/waitlibrary/waitlibrary.iml" filepath="$PROJECT_DIR$/waitlibrary/waitlibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wheelwidgetslib/wheelwidgetslib.iml" filepath="$PROJECT_DIR$/wheelwidgetslib/wheelwidgetslib.iml" />
+    </modules>
+  </component>
+</project>

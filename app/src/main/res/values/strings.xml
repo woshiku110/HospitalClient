@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">HospitalClient</string>
+    <string name="home_title_name">金康晟医患对接平台</string>
+    <string name="text_content">没设置</string>
+    <string name="home_yuyue">预约预诊</string>
+    <string name="home_houzhen">到院候诊</string>
+    <string name="home_jiancha">检查项目</string>
+    <string name="home_fz">复诊</string>
+    <string name="home_zy">中医理疗</string>
+    <string name="home_xl">心理咨询</string>
+    <string name="home_hz">会诊</string>
+    <string name="home_zj">专家医生</string>
+    <string name="home_jk">健康信息</string>
+</resources>

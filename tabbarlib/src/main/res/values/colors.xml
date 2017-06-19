@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="titleWordColor">#ffffff</color>
+    <color name="textUnselected">#6a6a6a</color>
+    <color name="textSelected">#3d96e2</color>
+    <color name="home_line_color">#c2c2c2</color>
+    <color name="home_bottom_bg">#f0f0f0</color>
+    <color name="home_gap_color">#dbdbdb</color>
+    <color name="home_item_color">#fbfbfb</color>
+    <color name="home_item_text_color">#666666</color>
+</resources>

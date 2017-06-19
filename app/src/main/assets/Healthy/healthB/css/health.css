@@ -1,0 +1,60 @@
+*{margin: 0px;padding: 0px; font-family: "Microsoft YaHei", 微软雅黑;  }
+.container{
+    float: left;
+    clear: both;
+    width: 100%;
+    overflow: auto;
+    font-size: 18px;
+    color: #666666;
+}
+.message{
+    width: 100%;
+    float: left;
+    clear: both;
+    border-bottom: 1px solid #e2e2e2;
+}
+.image{
+    border-radius: 90px 90px;
+    width: 90px;
+    height: 90px;
+    margin: 6px  6px 2px 6px;
+}
+.name{
+    display: block;
+    margin-top:30px;
+    color: #8e8e8e;
+}
+.icon{
+    width: 40px;
+    background:#3d96e2;
+    font-size: 14px;
+    color: #FFFFFF;
+    border-radius: 22px;
+    padding:2px 0 0px 6px;
+    margin-top:12px;
+}
+.icon img{
+    width: 12px;
+    height: 12px;
+    margin-left: 2px;
+}
+.right{
+    width: 68%;
+    float: right;
+    margin-top: 9px;
+}
+.right p{
+    display: inline-block;
+    font-size: 12px;
+    margin-top: 13px;
+}
+.right span{
+    font-size: 10px;
+    margin-left: 6px;
+}
+.more{
+    width:8px;
+    height:20px;
+    margin: -18px 14px 0 0;
+    float: right;
+}
